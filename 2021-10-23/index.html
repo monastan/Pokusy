@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Východy a západy slunce</title>
+</head>
+<body>
+    <h1>Východy a západy slunce</h1>
+    <div>
+        <label for="lng">Zeměpisná délka:</label>
+        <input type="text" name="lng" id="lng" value="14.4252008">
+    </div>
+    <div>
+        <label for="lat">Zeměpisná šířka:</label>
+        <input type="text" name="lat" id="lat" value="50.0833250">
+    </div>
+    
+    <button id="zobrazit">Zobrazit</button>
+
+    <div>Slunce vychází v: <span id="vychod"></span></div>
+    <div>Slunce zapadá v: <span id="zapad"></span></div>
+
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
